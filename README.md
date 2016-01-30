@@ -1,3 +1,11 @@
+See a live demo <a href="http://spence.xyz/">here</a>.
+
+******
+
+This theme is inspired by <a href="https://www.shortoftheweek.com/">Short of the Week</a> and <a href="https://levels.io/">Levels.io</a>.
+
+###Social Media Icons###
+
 Go to code injection, then paste this snippet in the blog footer. Change my social media profiles out with yours. If you do not want social media icons then do not insert this snippet and they will not appear.
 
 In order to get around the word limit of the blog description field I have put in a JavaScript injection for it. Simply paste your desired description below. It supports HTML as well.
@@ -7,7 +15,7 @@ In order to get around the word limit of the blog description field I have put i
         var facebook = "https://www.facebook.com/spencexyz";
         var twitter = "https://twitter.com/spencemcc";
         var github;
-        var blog_description = "I make Nomad List, Remote | OK, Startup Retreats and Go Fucking Do It. I travel to work from anywhere, bootstrap companies and only own what fits in my backpack. Before, I founded a music network on YouTube w/ 100+ mln views. Follow my adventures on Twitter or see a list of my posts. You can pre-order my book MAKE now.";
+        var blog_description = "I’ll always be a full-time student. I read, write, and have been known to program from time to time. When I’m not working on my side-projects, I’m helping someone with theirs. Follow me on Twitter to keep up with my work.";
         
         if(blog_description) {
             document.getElementById('blog_description').innerHTML = blog_description;
@@ -37,5 +45,7 @@ In order to get around the word limit of the blog description field I have put i
             twitterIcon.style.display = "inline-block";
         }     
       </script>
+
+###Profile Picture###
 
 Your blog logo will be the image that appears at the top of your blog. This variable is being treated as a profile image. This image should be cropped into a square before uploading it.

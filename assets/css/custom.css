@@ -20,12 +20,16 @@ body:not(.post-template) .post {
   text-align: center;
 }
 
+#blog_description {
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+
 #blog_description a {
   text-decoration: none;
   font-weight: 600;
   color: #fff;
-  line-height: 1.4;
-  letter-spacing: 0.05em;
 }
 
 #blog_description a:hover {
