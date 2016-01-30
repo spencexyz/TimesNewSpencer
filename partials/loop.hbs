@@ -1,0 +1,23 @@
+{{! Previous/next page links - only displayed on page 2+ }}
+<div class="extra-pagination inner">
+    {{pagination}}
+</div>
+
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+<div class="imageBar {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+    <div class="dimmer-dark" id="dimmer_{{@index}}"></div>
+    <article class="{{post_class}}" id="{{@index}}">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p><span><a class="read-more" href="{{url}}">{{excerpt words="26"}} &raquo;</a></span></p>
+        </section>
+        <footer class="post-meta">
+            <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        </footer>
+    </article>
+</div>
+{{/foreach}}
+
