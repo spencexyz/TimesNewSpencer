@@ -21,7 +21,7 @@ body:not(.post-template) .post {
 }
 
 #blog_description {
-  line-height: 1.4;
+  line-height: 1.5;
   letter-spacing: 0.05em;
   font-weight: 300;
 }
@@ -356,6 +356,45 @@ body.post-template .post-content a:hover {
 #twitter-follow-footer {
   padding: 3em 0;
 }
+
+.page-posts-archive .post {
+  width: 82%;
+  max-width: 1000px;
+}
+
+.page-description h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.tag-column a {
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  color: #3A4145 !important;
+  font-size: 1.4rem;
+}
+
+.title-column a {
+  text-decoration: none !important;
+  font-weight: 600 !important;
+}
+
+.post-content td {
+  vertical-align: middle;
+}
+
+.post-content td time {
+  font-weight: 300 !important;
+  color: #6C7A89;
+}
+
+.tag-cloud a {
+  color: #111;
+}
+
+.tag-cloud a:hover {
+  color: #4A4A4A;
+}
+
 
 @media(min-width:768px){
   body:not(.post-template) .post-title {

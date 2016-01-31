@@ -31,7 +31,7 @@
 
     {{!-- This is the block that contains all of the tags --}}
     <div class="tag-cloud">
-        <h3>Archive</h3>
+        <h3><a href="/posts-archive">Archive<a></h3>
         {{#get "tags" limit="all" include="count.posts" order="count.posts desc"}}
             <ul>
                 {{#foreach tags}}

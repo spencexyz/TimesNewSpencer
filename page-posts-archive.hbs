@@ -13,17 +13,31 @@
             <a class="home-button" href="/">Home</a>
         {{!-- {{/if}} --}}
     </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Archive</h1>
+        </div>
+    </div>
 </header>
 
 <main class="content" role="main">
     <article class="{{post_class}}">
 
-        <header class="post-header">
-            <h1 class="post-title">{{title}}</h1>
-        </header>
-
         <section class="post-content">
-            {{content}}
+            <table>
+                <tbody>
+                    {{#get "posts" limit="all" include="author,tags"}}
+                        {{#foreach posts}}
+                            <tr>
+                                <td class="title-column"><a href="{{url}}">{{title}}</a></td>
+                                <td class="tag-column">{{tags}}</td>
+                                <td><time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</td>
+                            </tr>
+                        {{/foreach}}
+                    {{/get}}
+                </tbody>
+            </table>
+
         </section>
 
     </article>
