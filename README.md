@@ -49,3 +49,15 @@ In order to get around the word limit of the blog description field I have put i
 ###Profile Picture###
 
 Your blog logo will be the image that appears at the top of your blog. This variable is being treated as a profile image. This image should be cropped into a square before uploading it.
+
+###Archive Page###
+<b>Step 1:</b><br>
+Create a new post and title it Archive, or something else if you don't like archive.
+<b>Step 2:</b><br>
+Make the URL of the page "posts-archive". This is not negotiable.
+<b>Step 3:</b><br>
+Make sure that the page is set to be a static page, not a post.
+
+
+
+
