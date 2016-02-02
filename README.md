@@ -52,11 +52,11 @@ Your blog logo will be the image that appears at the top of your blog. This vari
 
 ###Archive Page###
 <b>Step 1:</b><br>
-Create a new post and title it Archive, or something else if you don't like archive.
+Create a new post and title it Archive, or something else if you don't like archive.<br>
 <b>Step 2:</b><br>
-Make the URL of the page "posts-archive". This is not negotiable.
+Make the URL of the page "posts-archive". This is not negotiable.<br>
 <b>Step 3:</b><br>
-Make sure that the page is set to be a static page, not a post.
+Make sure that the page is set to be a static page, not a post.<br>
 
 
 

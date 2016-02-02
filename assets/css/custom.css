@@ -9,6 +9,32 @@ iframe {
   margin: 0 auto;
 }
 
+/*for error message page*/
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoContainer {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 5em 0 3em 0;
+}
+
+.errorBody {
+  text-align: center;
+  padding-top: 2em;
+}
+
 p {
   margin: 0 0 1em 0;
 }
