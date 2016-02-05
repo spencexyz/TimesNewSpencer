@@ -295,13 +295,22 @@ TAG CLOUD
 Mailchimp
 **********/
 
-.email-catch {
+.email-catch, .email-catch h5 {
+  text-align: center;
+}
+
+.email-catch h5 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body.home-template .email-catch {
   text-align: center;
   padding: 10rem 0;
   background-color: #F9690E;
 }
 
-.email-catch h5 {
+body.home-template .email-catch h5 {
   text-align: center;
   margin-bottom: 2rem;
   color: #fff;
@@ -341,6 +350,31 @@ Mailchimp
 }
 
 body.archive-template .email-catch {
+  display: none;
+}
+
+body.post-template .read-next {
+  margin-top: 0;
+}
+
+body.post-template .email-catch {
+  margin-top: 8em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #020202;
+}
+
+body.post-template .email-catch h5 {
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+body.post-template #mc-embedded-subscribe {
+  background: transparent;
+  border: solid 2px #fff;
+}
+
+body.archive-template .tag-cloud {
   display: none;
 }
 
