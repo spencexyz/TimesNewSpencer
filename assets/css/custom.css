@@ -387,6 +387,11 @@ body.post-template #mc-embedded-subscribe {
   border: solid 2px #fff;
 }
 
+body.post-template #mc-embedded-subscribe:hover {
+  background-color: #fff;
+  color: #020202;
+}
+
 body.archive-template .tag-cloud {
   display: none;
 }
