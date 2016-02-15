@@ -45,6 +45,7 @@ p {
   border: none;
   color: #2E2E2E !important;
   height: initial;
+  line-height: 3;
 }
 
 .home-button:hover {
@@ -304,6 +305,11 @@ TAG CLOUD
   margin: 3rem 0 0 0;
 }
 
+.post-footer {
+  border-top: none;
+  margin: 4rem 0 0 0;
+}
+
 /*********
 Mailchimp
 **********/
@@ -371,7 +377,6 @@ body.post-template .read-next {
 }
 
 body.post-template .email-catch {
-  margin-top: 8em;
   padding-top: 3em;
   padding-bottom: 3em;
   background-color: #020202;
@@ -432,7 +437,7 @@ body.post-template .post-content a:hover {
 }
 
 #twitter-follow-footer {
-  padding: 3em 0;
+  padding: 1em 0;
 }
 
 .page-posts-archive .post {

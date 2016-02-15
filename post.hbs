@@ -28,44 +28,12 @@
 
         <section class="post-content">
             {{content}}
+
             <div id="twitter-follow-footer">
                 <h3>If you took something away from this article or think I'm an idiot then <a href="https://twitter.com/spencemcc">tweet<i class="fa fa-twitter" style="margin-left: 10px"></i></a> at me.</h3>
             </div>
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES * * */
-            var disqus_shortname = 'spencerxyz';
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         </section>
-
-        <footer class="post-footer">
-
-            <section class="social-share-box">
-                <h3>"{{title}}" by @spencemcc</h3>
-                <div class="social-buttons">
-                    <a id="twitter-bar" href="https://twitter.com/intent/tweet?text=%22{{encode title}}%22%20by%3A%20@spencemcc&amp;url={{url absolute="true"}}"
-                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                        <i class="fa fa-twitter"></i>
-                        Twitter
-                    </a>
-                    <a id="facebook-bar" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                        <i class="fa fa-facebook"></i>
-                        Facebook
-                    </a>
-                </div>
-
-            </section>
-
-        </footer>
 
     </article>
 </main>
@@ -94,7 +62,59 @@
         </form>
     </div>
     <!--End mc_embed_signup-->
-</div>
+</div><!-- end of email catch -->
+
+
+
+
+<section class="post">
+<footer class="post-footer">
+
+    <div class="social-share-box">
+        <h3>"{{title}}" by @spencemcc</h3>
+        <div class="social-buttons">
+            <a id="twitter-bar" href="https://twitter.com/intent/tweet?text=%22{{encode title}}%22%20by%3A%20@spencemcc&amp;url={{url absolute="true"}}"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                Twitter
+            </a>
+            <a id="facebook-bar" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                Facebook
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'spencerxyz';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+</footer>
+</section>
+
+<div class="clearfix"></div>
+
+
+
+
+
+
 
 <aside class="read-next">
     {{#next_post}}
