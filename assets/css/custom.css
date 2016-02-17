@@ -431,7 +431,7 @@ body.post-template .post-content a:hover {
   text-decoration: underline;
 }
 
-.post-content p, .post-content ul {
+.post-content p, .post-content ul, .post-content ol {
   font-size: 0.8em;
   font-weight: 400;
 }
