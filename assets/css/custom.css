@@ -436,10 +436,10 @@ body.post-template .post-content a:hover {
   font-weight: 400;
 }
 
-#twitter-follow-footer {
-  padding: 1em 0;
+/*#twitter-follow-footer p {
+  font-weight: 900;
 }
-
+*/
 .page-posts-archive .post {
   width: 82%;
   max-width: 1000px;
